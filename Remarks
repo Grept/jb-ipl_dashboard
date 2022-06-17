@@ -1,0 +1,7 @@
+When i initialized the project with Spring Boot version 2.7.0 I get errors:
+Could not autowire. No beans of 'DataSource' type found.
+Could not autowire. No beans of 'JdbcTemplate' type found.
+Going back to Spring Boot version 2.4.4 resolves this issue.
+
+
+
