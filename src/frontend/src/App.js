@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import {TeamPage} from "./pages/TeamPage";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {MatchPage} from "./pages/MatchPage";
@@ -9,12 +8,11 @@ function App() {
         <div className="App">
             <Router>
                 <Switch>
-                    <Route exact path="/team/:teamName">
-                        <TeamPage />
-                    </Route>
-
-                    <Route exact path="/team/:teamName/matches/:year">
+                    <Route path="/team/:teamName/matches/:year">
                         <MatchPage />
+                    </Route>
+                    <Route path="/team/:teamName">
+                        <TeamPage />
                     </Route>
                 </Switch>
             </Router>
