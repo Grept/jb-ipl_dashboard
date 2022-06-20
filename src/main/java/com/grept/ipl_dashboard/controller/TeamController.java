@@ -1,8 +1,8 @@
-package com.grept.jpl_dashboard.controller;
+package com.grept.ipl_dashboard.controller;
 
-import com.grept.jpl_dashboard.model.Team;
-import com.grept.jpl_dashboard.repository.MatchRepository;
-import com.grept.jpl_dashboard.repository.TeamRepository;
+import com.grept.ipl_dashboard.model.Team;
+import com.grept.ipl_dashboard.repository.MatchRepository;
+import com.grept.ipl_dashboard.repository.TeamRepository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

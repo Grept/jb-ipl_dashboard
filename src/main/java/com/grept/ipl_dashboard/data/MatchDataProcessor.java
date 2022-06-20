@@ -1,6 +1,6 @@
-package com.grept.jpl_dashboard.data;
+package com.grept.ipl_dashboard.data;
 
-import com.grept.jpl_dashboard.model.Match;
+import com.grept.ipl_dashboard.model.Match;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.item.ItemProcessor;

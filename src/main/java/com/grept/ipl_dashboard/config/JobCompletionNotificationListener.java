@@ -1,6 +1,6 @@
-package com.grept.jpl_dashboard.config;
+package com.grept.ipl_dashboard.config;
 
-import com.grept.jpl_dashboard.model.Team;
+import com.grept.ipl_dashboard.model.Team;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.core.BatchStatus;

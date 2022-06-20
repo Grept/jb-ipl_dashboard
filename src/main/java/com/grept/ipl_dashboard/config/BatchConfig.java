@@ -1,8 +1,8 @@
-package com.grept.jpl_dashboard.config;
+package com.grept.ipl_dashboard.config;
 
-import com.grept.jpl_dashboard.data.MatchDataProcessor;
-import com.grept.jpl_dashboard.data.MatchInput;
-import com.grept.jpl_dashboard.model.Match;
+import com.grept.ipl_dashboard.data.MatchDataProcessor;
+import com.grept.ipl_dashboard.data.MatchInput;
+import com.grept.ipl_dashboard.model.Match;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;

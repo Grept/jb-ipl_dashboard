@@ -1,7 +1,7 @@
-package com.grept.jpl_dashboard.controller;
+package com.grept.ipl_dashboard.controller;
 
-import com.grept.jpl_dashboard.model.Match;
-import com.grept.jpl_dashboard.repository.MatchRepository;
+import com.grept.ipl_dashboard.model.Match;
+import com.grept.ipl_dashboard.repository.MatchRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;

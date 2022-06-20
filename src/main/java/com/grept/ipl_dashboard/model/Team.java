@@ -1,7 +1,4 @@
-package com.grept.jpl_dashboard.model;
-
-import lombok.Getter;
-import lombok.Setter;
+package com.grept.ipl_dashboard.model;
 
 import javax.persistence.*;
 import java.util.List;

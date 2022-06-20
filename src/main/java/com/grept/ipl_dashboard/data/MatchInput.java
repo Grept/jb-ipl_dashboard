@@ -1,4 +1,4 @@
-package com.grept.jpl_dashboard.data;
+package com.grept.ipl_dashboard.data;
 
 import lombok.Getter;
 import lombok.Setter;

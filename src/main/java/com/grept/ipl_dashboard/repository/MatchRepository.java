@@ -1,6 +1,6 @@
-package com.grept.jpl_dashboard.repository;
+package com.grept.ipl_dashboard.repository;
 
-import com.grept.jpl_dashboard.model.Match;
+import com.grept.ipl_dashboard.model.Match;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.Query;
