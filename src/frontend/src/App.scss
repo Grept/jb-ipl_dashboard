@@ -1,12 +1,18 @@
+@import "./GlobalStylingVariables";
+
 .App {
   padding: 20px;
   text-align: left;
 }
 
 .won-card {
-  background-color: #00561E;
+  background-color: $GREEN;
 }
 
 .lost-card {
-  background-color: #7E0000;
+  background-color: $RED;
+}
+
+.home-link {
+  font-size: 1.5rem;
 }
