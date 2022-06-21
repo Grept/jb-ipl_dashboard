@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 
 @RestController
 @CrossOrigin
@@ -20,6 +22,12 @@ public class TeamController {
         this.teamRepository = teamRepository;
         this.matchRepository = matchRepository;
     }
+
+    @GetMapping("/team")
+    public Iterable<Team> getAllTeams() {
+        return this.teamRepository.findAll();
+    }
+
 
     @GetMapping("/team/{teamName}")
     public Team getTeam(@PathVariable String teamName) {
